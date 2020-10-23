@@ -1,0 +1,149 @@
+html{
+  background: #576995;
+background-size: cover;
+  min-height: 100%;
+}
+
+body{
+  background:none;
+}
+
+#caja{
+  background-color: #fff;
+  max-width: 800px;
+  margin: 160px auto 0;
+  padding: 40px;
+  color: #858b8e;
+  box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+}
+
+#caja h2{
+  color:#4E576D;
+  padding-bottom: 20px;
+  margin: 10px 20px;
+  font-size: 24px;
+}
+
+#caja hr{
+  margin-top: 38px;
+  margin-bottom: 54px;
+  margin-left:3px;
+  border: 1px solid #cccccc;
+
+}
+
+#caja .form-group{
+margin-bottom: 20px;
+  margin-left:20px;
+width: 100%;
+  float:left;
+  text-align: left;
+}
+
+#caja .form-control{
+
+  border-radius: 2px;
+  width: 90%;
+	padding: 12px 20px;
+	height: auto;
+}
+
+#caja .radio-inline{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#caja .gender{
+  width: 30%;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#caja .btn{
+  width: 46%;
+  margin: 20px auto 0;
+  display: block;
+  outline: none;
+}
+
+@media screen and (max-width: 800px){
+  #caja .form-group{
+      width: 45%;
+  }
+
+  #caja{
+      margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 560px){
+  #caja .form-group{
+      width: 100%;
+      margin-left: 0;
+  }
+
+  #caja h2{
+      text-align: center;
+  }
+}
+#cajita{
+  background-color: #fff;
+  max-width: 800px;
+  margin: 160px auto 0;
+  padding: 40px;
+  color: #858b8e;
+  box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+}
+
+#cajita h2{
+  color:#4E576D;
+  padding-bottom: 20px;
+  margin: 10px 20px;
+  font-size: 24px;
+}
+
+#cajita hr{
+  margin-top: 38px;
+  margin-bottom: 54px;
+  margin-left:3px;
+  border: 1px solid #cccccc;
+
+}
+
+
+@media screen and (max-width: 800px){
+  #cajita{
+      margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 560px){
+  #cajita h2{
+      text-align: center;
+  }
+}
+
+
+.error {
+  text-align: center;
+}
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+.button.eliminar,
+.button.eliminar:hover {
+  background-color: #c10059;
+  color: white;
+  margin-top: 2rem;
+}
